@@ -1,0 +1,4 @@
+# Use always role with their stable branch, test of development branch(master) of role is executed using the playbook test/test.yml contained in each role repository using the development branch
+- src: https://github.com/giovannisciortino/boilerplate-role.git
+  version: stable
+  name: boilerplate-role
